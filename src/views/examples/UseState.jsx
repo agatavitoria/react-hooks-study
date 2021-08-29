@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
-import SectionTitle from './../../components/layout/SectionTitle';
+import SectionTitle from './../../components/layout/SectionTitle'
 
 const UseState = (props) => {
     const [ count, setCount ] = useState(0)
